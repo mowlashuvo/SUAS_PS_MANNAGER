@@ -13,20 +13,40 @@
         android:theme="@style/Theme.SUAS_PS_MANNAGER">
         <activity
             android:theme="@style/AppThemefull"
+            android:name=".GiveawaysActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppThemefull"
+            android:name=".ProductListingActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppThemefull"
+            android:name=".EventRequestActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppThemefull"
+            android:name=".ComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/AppThemefull"
+            android:name=".ServiceRequestActivity"
+            android:exported="false" />
+        <activity
             android:name=".RequestDetailActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppThemefull" />
         <activity
-            android:theme="@style/AppThemefull"
             android:name=".CompletedActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppThemefull" />
         <activity
-            android:theme="@style/AppThemefull"
             android:name=".WorkingActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppThemefull" />
         <activity
-            android:theme="@style/AppThemefull"
             android:name=".PendingActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppThemefull" />
         <activity
             android:name=".DashboardActivity"
             android:exported="true"
